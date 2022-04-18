@@ -13,8 +13,8 @@ var (
 	bl		bool = false
 	f32		float32 = 42
 	f64		float64 = 42
-	c64		complex64 = 42i
-	c128	complex128 = 42i
+	c64		complex64 = 42+0i
+	c128	complex128 = 42+21i
 	ia		[1]int
 	ia2		[]int
 	p		*int = nil
