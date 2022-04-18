@@ -26,7 +26,7 @@ func calculationStr(args []string) (string, bool) {
 	if x_err != nil || y_err != nil {
 		return "ERROR", false
 	}
-	sum:= "sum: " + strconv.Itoa(x + y) + "\n"
+	sum := "sum: " + strconv.Itoa(x + y) + "\n"
 	difference := "difference: " + strconv.Itoa(x - y) + "\n"
 	product := "product: " + strconv.Itoa(x * y) + "\n"
 	quotient := "quotient: " + strconv.Itoa(x / y) + "\n"
