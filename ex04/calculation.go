@@ -11,10 +11,10 @@ const ERROR_MSG string = "Arguments is invalid."
 func main() {
 	s, ok := calculationStr(os.Args)
 	if !ok {
-			fmt.Println(ERROR_MSG)
-			os.Exit(1)
+		fmt.Println(ERROR_MSG)
+		os.Exit(1)
 	}
-		fmt.Print(s)
+	fmt.Print(s)
 }
 
 func calculationStr(args []string) (string, bool) {
@@ -26,10 +26,10 @@ func calculationStr(args []string) (string, bool) {
 	if x_err != nil || y_err != nil {
 		return "ERROR", false
 	}
-	sum := "sum: " + strconv.Itoa(x + y) + "\n"
-	difference := "difference: " + strconv.Itoa(x - y) + "\n"
-	product := "product: " + strconv.Itoa(x * y) + "\n"
-	quotient := "quotient: " + strconv.Itoa(x / y) + "\n"
+	sum := "sum: " + strconv.Itoa(x+y) + "\n"
+	difference := "difference: " + strconv.Itoa(x-y) + "\n"
+	product := "product: " + strconv.Itoa(x*y) + "\n"
+	quotient := "quotient: " + strconv.Itoa(x/y) + "\n"
 	res := (sum + difference + product + quotient)
 	return res, true
 }

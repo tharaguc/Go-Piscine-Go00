@@ -11,7 +11,7 @@ func main() {
 	cnt := 0
 	row := 1
 	for {
-		if cnt + row > max {
+		if cnt+row > max {
 			break
 		}
 		for i := 0; i < row; i++ {

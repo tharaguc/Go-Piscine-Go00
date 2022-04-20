@@ -3,22 +3,22 @@ package main
 import "fmt"
 
 var (
-	s		string = "42"
-	ui		uint = 42
-	i		int = 42
-	ui8		uint8 = 42
-	i16	int16 = 42
-	ui32	uint32 = 42
-	i64	int64 = 42
-	bl		bool = false
-	f32		float32 = 42
-	f64		float64 = 42
-	c64		complex64 = 42+0i
-	c128	complex128 = 42+21i
-	ia		[1]int
-	ia2		[]int
-	p		*int = nil
-	ifc		interface{}
+	s    string     = "42"
+	ui   uint       = 42
+	i    int        = 42
+	ui8  uint8      = 42
+	i16  int16      = 42
+	ui32 uint32     = 42
+	i64  int64      = 42
+	bl   bool       = false
+	f32  float32    = 42
+	f64  float64    = 42
+	c64  complex64  = 42 + 0i
+	c128 complex128 = 42 + 21i
+	ia   [1]int
+	ia2  []int
+	p    *int = nil
+	ifc  interface{}
 )
 
 type FortyTwo struct {

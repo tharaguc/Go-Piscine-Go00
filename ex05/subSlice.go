@@ -20,8 +20,8 @@ func subSlice(slice []int, begin int, length int, capacity int) []int {
 	}
 	ret := make([]int, length, capacity)
 	i := 0
-	for i < (len(slice) - begin) && i < length {
-		ret[i] = slice[begin + i]
+	for i < (len(slice)-begin) && i < length {
+		ret[i] = slice[begin+i]
 		i++
 	}
 	return ret
